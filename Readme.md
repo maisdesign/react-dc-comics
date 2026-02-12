@@ -10,3 +10,17 @@ Il font utilizzato è Open Sans
 
 # Bonus: 
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+
+
+# Questa è la mia idea di scaffolding:
+
+1) Header
+1.1) Logo
+1.2) Nav
+2) Main/Content
+3) Footer
+3.1) banda blu [rinominare CTA Zone?]
+3.2) Footer Links
+3.3) Bottom Footer
+3.3.1)Signup button
+3.3.2) Social links
