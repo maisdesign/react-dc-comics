@@ -15,8 +15,8 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 # Questa è la mia idea di scaffolding:
 
 1) Header
-1.1) Logo
-1.2) Nav
+1.1) Nav
+1.1.1) Logo
 2) Main/Content
 3) Footer
 3.1) banda blu [rinominare CTA Zone?]

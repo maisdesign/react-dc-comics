@@ -1,7 +1,10 @@
+import Nav from './Nav.jsx'
+
 function Header() {
     return (
         <>
-            <div classname="header">Sono la header</div>
+            <Nav />
+            <div className="header">Sono la header</div>
         </>
     )
 }
