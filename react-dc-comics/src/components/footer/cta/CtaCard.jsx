@@ -1,16 +1,9 @@
-function CtaCard() {
+function CtaCard({ id, label, link, imgurl }) {
     return (
         <>
-            <div className="ctaCards">
-
-                {ctaLinks.map(({ id, label, link, imgurl }) => (
-                    <li key={id} className="nav-link">
-                        <a href={link}><img src={imgurl} alt={label} /></a>
-                    </li>
-                )
-                )}
-
-            </div >
+            <li key={id} className="nav-link">
+                <a href={link}><img src={imgurl} alt={label} /></a>
+            </li>
         </>
     )
 }

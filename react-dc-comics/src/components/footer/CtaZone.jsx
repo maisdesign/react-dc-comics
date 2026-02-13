@@ -3,16 +3,14 @@ import CtaCard from './cta/CtaCard.jsx'
 
 function CtaZone() {
     return (
-        <>
-            <ul className="cta-links-container">
-                {ctaLinks.map(({ id, label, link, imgurl }) => (
-                    <li key={id} className="nav-link">
-                        <a href={link}><img src={imgurl} alt={label} /></a>
-                    </li>
-                )
-                )}
-            </ul>
-        </>
+
+        <ul className="cta-links-container">
+            {ctaLinks.map(({ id, label, link, imgurl }) => (
+                <CtaCard key={id} id={id} label={label} link={link} imgurl={imgurl} />
+            )
+            )}
+        </ul>
+
     )
 }
 export default CtaZone
