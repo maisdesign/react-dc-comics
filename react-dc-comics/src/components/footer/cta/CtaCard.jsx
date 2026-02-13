@@ -1,18 +1,17 @@
-import ctaLinks from '../../data/ctaLinks.js'
-import CtaCard from './cta/CtaCard.jsx'
-
-function CtaZone() {
+function CtaCard() {
     return (
         <>
-            <ul className="cta-links-container">
+            <div className="ctaCards">
+
                 {ctaLinks.map(({ id, label, link, imgurl }) => (
                     <li key={id} className="nav-link">
                         <a href={link}><img src={imgurl} alt={label} /></a>
                     </li>
                 )
                 )}
-            </ul>
+
+            </div >
         </>
     )
 }
-export default CtaZone
+export default CtaCard
