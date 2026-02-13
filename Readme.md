@@ -31,13 +31,13 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - Main background: rgb(28, 28, 28)
 - Bottom footer background: rgb(48, 48, 48)
 - Nav text: rgb(82, 82, 82)
-- SocialLinks text: rgb(140, 135, 104)
+- Bottom footer links: rgb(140, 135, 104)
 ### Font:
 - Open Sans
 ### Background images (SocialLinks):
 - footer-bg.jpg
 - dc-logo-bg.png
 ### File css
-- utilities (variabili colori, font size)
-- css base (reset base, body)
-- css specifici (per i vari component)
+- utilities (reset, variabili colori, font size) => utilities.css
+- css base (body e critical css) => critical.css
+- css specifici (per i vari component) => $component.css
