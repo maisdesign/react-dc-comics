@@ -38,6 +38,6 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - footer-bg.jpg
 - dc-logo-bg.png
 ### File css
-- utilities (reset, variabili colori, font size) => utilities.css
+- utilities (reset, variabili colori, variabili background images, font size) => utilities.css
 - css base (body e critical css) => critical.css
 - css specifici (per i vari component) => $component.css

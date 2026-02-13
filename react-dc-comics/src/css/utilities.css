@@ -49,3 +49,13 @@ img {
     --bottom-footer-bg: rgb(48, 48, 48);
     --bottom-footer-links: rgb(140, 135, 104);
 }
+
+/*
+* Background images
+*/
+
+:root {
+    --jumbotron-bg: url('../assets/jumbotron.jpg');
+    --footer-link-bg: url('../assets/footer-bg.jpg');
+    --dc-logo-overlay: url('../assets/dc-logo-bg.png');
+}
