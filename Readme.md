@@ -1,18 +1,18 @@
 # Esercizio di oggi: DC Comics (React Components)
-# nome repo: react-dc-comics
+## nome repo: react-dc-comics
 
-# Descrizione:
+## Descrizione:
 Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
 Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
 
-# Note:
+## Note:
 Il font utilizzato è Open Sans
 
-# Bonus: 
+## Bonus: 
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
 
-# Questa è la mia idea di scaffolding:
+## Questa è la mia idea di scaffolding:
 
 1) Header
 1.1) Nav
@@ -25,15 +25,15 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 3.3.1)Signup button
 3.3.2) Social links
 
-# Design tokens
-## Colori:
-.) Blue CTA / active links / border signup-button: rgb(2, 130, 250)
-.) Main background: rgb(28, 28, 28)
-.) Bottom footer background: rgb(48, 48, 48)
-.) Nav text: rgb(82, 82, 82)
-.) SocialLinks text: rgb(140, 135, 104)
-## Font:
-.) Open Sans
-## Background images (SocialLinks):
-.) footer-bg.jpg
-.) dc-logo-bg.png
+## Design tokens
+### Colori:
+(-) Blue CTA / active links / border signup-button: rgb(2, 130, 250)
+(-) Main background: rgb(28, 28, 28)
+(-) Bottom footer background: rgb(48, 48, 48)
+(-) Nav text: rgb(82, 82, 82)
+(-) SocialLinks text: rgb(140, 135, 104)
+### Font:
+(-) Open Sans
+### Background images (SocialLinks):
+(-) footer-bg.jpg
+(-) dc-logo-bg.png
