@@ -47,3 +47,5 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
 # Obbiettivo
 ![dc-comics-empty-layout.png](<https://ibb.co/XZ3DrKrG>)
+
+![youtube_favicon.png](<https://s2.loli.net/2025/10/14/scJxqVYDIfRUrza.png>)
