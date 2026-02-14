@@ -4,11 +4,11 @@ import Footer from './components/footer/Footer.jsx'
 
 function App() {
   return (
-    <>
+    <div className="container">
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   )
 
 }

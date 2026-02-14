@@ -7,3 +7,11 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+ul.nav-links-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
