@@ -4,12 +4,13 @@ import BottomFooter from './BottomFooter.jsx'
 
 function Footer() {
     return (
-        <>
-            <div className="footer">Sono Il footer</div>
+
+        <footer>
             <CtaZone />
             <FooterLinks />
             <BottomFooter />
-        </>
+        </footer>
+
     )
 }
 export default Footer

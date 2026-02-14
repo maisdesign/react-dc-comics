@@ -1,0 +1,8 @@
+/*
+* Critical CSS
+* Body & basic scheleton style
+*/
+
+body {
+    background-color: var(--main-bg);
+}

@@ -3,10 +3,10 @@ import SocialLinks from './SocialLinks.jsx'
 
 function BottomFooter() {
     return (
-        <>
+        <div className="bottom-footer">
             <SignupButton />
             <SocialLinks />
-        </>
+        </div>
     )
 }
 

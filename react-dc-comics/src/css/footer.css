@@ -1,0 +1,19 @@
+/*
+* Footer.jsx styles
+*/
+
+.footerlinks {
+    background-image: var(--footer-link-bg);
+    display: flex;
+}
+
+.footerlinks-container {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom-footer {
+    bacground-color: var(--bottom-footer-bg);
+    display: flex;
+}

@@ -1,0 +1,8 @@
+/*
+* CTA Styles
+*/
+
+.cta-container {
+    background-color: var(--dc-blue-color);
+    display: flex;
+}

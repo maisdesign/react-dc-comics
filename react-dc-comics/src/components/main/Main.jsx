@@ -1,7 +1,7 @@
 function Main() {
     return (
         <>
-            <div className='main'> --&gt; Content goes here &lt;-- </div>
+            <main> --&gt; Content goes here &lt;-- </main>
         </>
     )
 }
