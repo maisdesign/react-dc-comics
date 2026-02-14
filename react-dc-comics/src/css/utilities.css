@@ -60,3 +60,11 @@ img {
     --footer-link-bg: url('../assets/footer-bg.jpg');
     --dc-logo-overlay: url('../assets/dc-logo-bg.png');
 }
+
+/*
+* Fonts
+*/
+
+:root {
+    font-family: "Open Sans", Arial, sans-serif;
+}

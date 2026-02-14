@@ -26,10 +26,21 @@ ul.nav-links-container {
     color: var(--nav-links-not-active);
 }
 
-a.nav-links-container {
+.nav-link a {
+    color: var(--nav-links-not-active);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    line-height: 1;
     text-decoration: none;
+    display: inline-block;
+    padding: 18px 14px;
 }
 
-a.nav-links-container:active {
+
+a.nav-links-container.is-active {
     color: var(--nav-link-active);
+    border-bottom: 3px solid var(--nav-link-active);
+    padding-bottom: 15px;
 }
