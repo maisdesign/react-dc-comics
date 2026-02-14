@@ -46,6 +46,4 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 [Versione online - WIP: https://react-dc-comic.netlify.app/](https://react-dc-comic.netlify.app/)
 
 # Obbiettivo
-![dc-comics-empty-layout.png](<https://ibb.co/XZ3DrKrG>)
-
-![youtube_favicon.png](<https://s2.loli.net/2025/10/14/scJxqVYDIfRUrza.png>)
+![dc-comics-empty-layout.png](<https://i.ibb.co/RpBNkskJ/dc-comics-empty-layout.png>)
