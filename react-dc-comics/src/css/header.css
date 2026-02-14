@@ -4,4 +4,6 @@
 
 header {
     background-color: var(--header-bg);
+    display: flex;
+    justify-content: space-between;
 }
