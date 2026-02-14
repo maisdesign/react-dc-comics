@@ -43,4 +43,7 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - css specifici (per i vari component) => $component.css
 
 # Versione online
-[Versione online](https://react-dc-comic.netlify.app/)
+[Versione online - WIP: https://react-dc-comic.netlify.app/](https://react-dc-comic.netlify.app/)
+
+# Obbiettivo
+![dc-comics-empty-layout.png](<https://ibb.co/XZ3DrKrG>)
