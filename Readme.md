@@ -41,3 +41,6 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - utilities (reset, variabili colori, variabili background images, font size) => utilities.css
 - css base (body e critical css) => critical.css
 - css specifici (per i vari component) => $component.css
+
+# Versione online
+[Versione online](https://react-dc-comic.netlify.app/)
