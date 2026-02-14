@@ -4,8 +4,15 @@
 
 header {
     background-color: var(--header-bg);
+
+}
+
+.top-container {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 0;
 }
 
 ul.nav-links-container {
@@ -14,4 +21,14 @@ ul.nav-links-container {
     padding: 0;
     margin: 0;
     gap: 1rem;
+    align-items: center;
+    color: var(--nav-links-not-active);
+}
+
+a.nav-links-container {
+    text-decoration: none;
+}
+
+a.nav-links-container:active {
+    color: var(--nav-link-active);
 }

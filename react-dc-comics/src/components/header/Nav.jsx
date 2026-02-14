@@ -3,9 +3,9 @@ import navLinks from '../../data/navLinks.js'
 
 function Nav() {
     return (
-        <>
+        <div className="top-container">
             <Logo />
-            <div className="nav">
+            <nav>
                 <ul className="nav-links-container">
                     {navLinks.map(({ id, label, link }) => (
                         <li key={id} className="nav-link">
@@ -15,8 +15,8 @@ function Nav() {
                     )}
                 </ul>
 
-            </div>
-        </>
+            </nav>
+        </div>
     )
 }
 export default Nav
