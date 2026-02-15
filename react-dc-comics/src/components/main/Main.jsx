@@ -1,8 +1,10 @@
 function Main() {
     return (
-        <>
-            <main> --&gt; Content goes here &lt;-- </main>
-        </>
+
+        <main>
+            <p>--&gt; Content goes here &lt;-- </p>
+        </main>
+
     )
 }
 export default Main

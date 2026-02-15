@@ -8,7 +8,8 @@ function FooterLinks() {
         <div className="footerlinks">
             <div className="footerlinks-container">
                 <div className="footerlinks-row-1">
-                    <ul className="ul-title">DC COMICS
+                    <ul className="footer-links-ul">
+                        <h3 className="ul-title">DC COMICS</h3>
                         {dcComicsLinks.map(({ id, label, link }) => (
                             <li key={id} className="nav-link">
                                 <a href={link}>{label}</a>
@@ -16,7 +17,8 @@ function FooterLinks() {
                         )
                         )}
                     </ul>
-                    <ul className="ul-title">SHOP
+                    <ul className="footer-links-ul">
+                        <h3 className="ul-title">SHOP</h3>
                         {shopLinks.map(({ id, label, link }) => (
                             <li key={id} className="nav-link">
                                 <a href={link}>{label}</a>
@@ -26,7 +28,8 @@ function FooterLinks() {
                     </ul>
                 </div>
                 <div className="footerlinks-row-2">
-                    <ul className="ul-title">DC
+                    <ul className="footer-links-ul">
+                        <h3 className="ul-title">DC</h3>
                         {dcLinks.map(({ id, label, link }) => (
                             <li key={id} className="nav-link">
                                 <a href={link}>{label}</a>
@@ -36,7 +39,8 @@ function FooterLinks() {
                     </ul>
                 </div>
                 <div className="footerlinks-row-3">
-                    <ul className="ul-title">SITES
+                    <ul className="footer-links-ul">
+                        <h3 className="ul-title">SITES</h3>
                         {siteLinks.map(({ id, label, link }) => (
                             <li key={id} className="nav-link">
                                 <a href={link}>{label}</a>
@@ -46,6 +50,7 @@ function FooterLinks() {
                     </ul>
                 </div>
             </div>
+            <div className="dc-logo-overlay"></div>
         </div>
     )
 }

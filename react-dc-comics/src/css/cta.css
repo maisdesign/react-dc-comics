@@ -5,4 +5,26 @@
 .cta-container {
     background-color: var(--dc-blue-color);
     display: flex;
+    height: 10rem;
+}
+
+ul.cta-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul.cta-links-container li a {
+    color: var(--cta-link-color);
+}
+
+li.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+li.nav-link a img {
+    height: 3rem;
 }

@@ -44,11 +44,13 @@ img {
 :root {
     --dc-blue-color: rgb(2, 130, 250);
     --main-bg: rgb(28, 28, 28);
-    --nav-links-not-active: rgb(82, 82, 82);
-    --nav-links-active: rgb(2, 130, 250);
+    --nav-link-not-active: rgb(82, 82, 82);
+    --nav-link-active: rgb(2, 130, 250);
     --bottom-footer-bg: rgb(48, 48, 48);
-    --bottom-footer-links: rgb(140, 135, 104);
+    --bottom-footer-link: rgb(140, 135, 104);
     --header-bg: rgb(255, 255, 255);
+    --cta-link-color: rgb(255, 255, 255);
+    --footer-link-ul-title: rgb(255, 255, 255);
 }
 
 /*

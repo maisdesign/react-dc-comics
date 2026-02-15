@@ -6,9 +6,9 @@ function Nav() {
         <div className="top-container">
             <Logo />
             <nav>
-                <ul className="nav-links-container">
-                    {navLinks.map(({ id, label, link }) => (
-                        <li key={id} className="nav-link">
+                <ul className="nav-link-container">
+                    {navLinks.map(({ id, label, link }, index) => (
+                        <li key={id} className={`nav-link ${index === 1 ? 'is-active' : ''}`}>
                             <a href={link}>{label}</a>
                         </li>
                     )

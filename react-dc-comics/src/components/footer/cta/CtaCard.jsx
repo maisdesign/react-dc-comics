@@ -3,7 +3,9 @@ function CtaCard({ id, label, link, imgurl }) {
         <>
             <li key={id} className="nav-link">
                 <a href={link}><img src={imgurl} alt={label} /></a>
+                <a href={link}>{label}</a>
             </li>
+
         </>
     )
 }
