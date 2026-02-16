@@ -1,9 +1,9 @@
 import logoImg from '../../assets/dc-logo.png'
 function Logo() {
     return (
-        <div className="logo">
+        <a className="navbar-brand" href="#">
             <img src={logoImg} alt="Logo Dc Comics" className="logo-img" />
-        </div>
+        </a>
     )
 }
 export default Logo

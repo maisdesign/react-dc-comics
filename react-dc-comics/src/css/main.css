@@ -1,10 +1,7 @@
 /*
-* Main.jsx CSS
+* Main styles
 */
 
 main {
     color: rgb(255, 255, 255);
-    height: 30rem;
-    display: flex;
-    align-items: center;
 }

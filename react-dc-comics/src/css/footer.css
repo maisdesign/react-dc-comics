@@ -1,38 +1,7 @@
 /*
-* Footer.jsx styles
+* Footer styles
 */
 
 .footerlinks {
     background-image: var(--footer-link-bg);
-    display: flex;
-}
-
-.footerlinks-container {
-    width: 33%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2rem;
-    margin: 0 auto;
-}
-
-.footerlinks-row-1,
-.footerlinks-row-2,
-.footerlinks-row-3 {
-    width: 33%;
-}
-
-.dc-logo-overlay {
-    background: var(--dc-logo-overlay) no-repeat;
-    height: auto;
-    width: 66%;
-    margin: 0 auto;
-}
-
-.bottom-footer {
-    background-color: var(--bottom-footer-bg);
-    display: flex;
-}
-
-h3.ul-title {
-    color: var(--footer-link-ul-title);
 }
