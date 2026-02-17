@@ -5,3 +5,23 @@
 header {
     background-color: var(--header-bg);
 }
+
+a.top-menu-nav-link {
+    color: var(--nav-link-not-active);
+    font-weight: 600;
+}
+
+li.nav-item.is-active a.nav-link.top-menu-nav-link {
+    color: var(--dc-blue-color);
+    position: relative;
+}
+
+li.nav-item.is-active a.nav-link.top-menu-nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: var(--dc-blue-color);
+}

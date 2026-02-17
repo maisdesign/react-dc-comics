@@ -4,4 +4,7 @@
 
 main {
     color: rgb(255, 255, 255);
+    font-family: var(--site-font-family);
+    font-weight: 600;
+    padding: 10rem 2rem;
 }

@@ -4,4 +4,39 @@
 
 .footerlinks {
     background-image: var(--footer-link-bg);
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+    overflow: hidden;
+}
+
+.ul-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footer-link-item a {
+    color: var(--bottom-footer-link);
+}
+
+.dc-logo-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    background: var(--dc-logo-overlay) no-repeat;
+    background-size: auto 130%;
+    background-position: 70% center;
+    pointer-events: none;
+}
+
+.bottom-footer {
+    background-color: var(--bottom-footer-bg);
+}
+
+.social-cta p {
+    color: var(--dc-blue-color);
+    font-weight: 600;
+    font-size: 1.2rem;
 }

@@ -7,7 +7,7 @@
     --nav-link-not-active: rgb(82, 82, 82);
     --nav-link-active: rgb(2, 130, 250);
     --bottom-footer-bg: rgb(48, 48, 48);
-    --bottom-footer-link: rgb(140, 135, 104);
+    --bottom-footer-link: rgb(129, 129, 130);
     --header-bg: rgb(255, 255, 255);
     --cta-link-color: rgb(255, 255, 255);
     --footer-link-ul-title: rgb(255, 255, 255);
@@ -26,5 +26,5 @@
 * Fonts
 */
 :root {
-    font-family: "Open Sans", Arial, sans-serif;
+    --site-font-family: "Open Sans", Arial, sans-serif;
 }

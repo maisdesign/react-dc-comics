@@ -1,8 +1,8 @@
 function SignupButton() {
     return (
-        <button className="signup-button">
-            <a href="#">SIGN-UP NOW!</a>
-        </button>
+
+        <a href="#" className="signup-button btn btn-outline-light">SIGN-UP NOW!</a>
+
     )
 }
 export default SignupButton
