@@ -1,18 +1,28 @@
 # Esercizio di oggi: DC Comics (React Components)
-## nome repo: react-dc-comics
+### nome repo: react-dc-comics
 
-## Descrizione:
+---
+
+![DESCRIZIONE](https://img.shields.io/badge/DESCRIZIONE-0282FA?style=for-the-badge)
+
 Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
 Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
 
-## Note:
+---
+
+![NOTE](https://img.shields.io/badge/NOTE-555555?style=for-the-badge)
+
 Il font utilizzato è Open Sans
 
-## Bonus: 
-Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
-(✅ Fatto)
+---
 
-## Questa è la mia idea di scaffolding:
+![BONUS](https://img.shields.io/badge/BONUS_✅_COMPLETATO-28a745?style=for-the-badge)
+
+Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+
+---
+
+![SCAFFOLDING](https://img.shields.io/badge/SCAFFOLDING-0282FA?style=for-the-badge)
 
 1. Header
    - Nav
@@ -25,35 +35,52 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
      - Signup button
      - Social links
 
-## Design tokens
-### Colori:
-- Blue CTA / active links / border signup-button: rgb(2, 130, 250)
-- Main background: rgb(28, 28, 28)
-- Bottom footer background: rgb(48, 48, 48)
-- Nav text: rgb(82, 82, 82)
-- Bottom footer links: rgb(129, 129, 130)
-### Font:
-- Open Sans
-### Background images (SocialLinks):
+---
+
+![DESIGN TOKENS](https://img.shields.io/badge/DESIGN_TOKENS-0282FA?style=for-the-badge)
+
+**Colori:**
+- ![#0282FA](https://img.shields.io/badge/-%230282FA-0282FA?style=flat-square) Blue CTA / active links / border signup-button: rgb(2, 130, 250)
+- ![#1C1C1C](https://img.shields.io/badge/-%231C1C1C-1C1C1C?style=flat-square) Main background: rgb(28, 28, 28)
+- ![#303030](https://img.shields.io/badge/-%23303030-303030?style=flat-square) Bottom footer background: rgb(48, 48, 48)
+- ![#525252](https://img.shields.io/badge/-%23525252-525252?style=flat-square) Nav text: rgb(82, 82, 82)
+- ![#818182](https://img.shields.io/badge/-%23818182-818182?style=flat-square) Bottom footer links: rgb(129, 129, 130)
+
+**Font:** Open Sans
+
+**Background images:**
 - footer-bg.jpg
 - dc-logo-bg.png
-### File css
+
+**File css:**
 - utilities (variabili colori, variabili background images, font size) => utilities.css
 - css base (body e critical css) => critical.css
 - css specifici (per i vari component) => $component.css
 
-## Tecnologie usate:
-- Bootstrap
-- React
-- Vite
+---
 
-## Come avviare il progetto:
+![TECNOLOGIE USATE](https://img.shields.io/badge/TECNOLOGIE_USATE-0282FA?style=for-the-badge)
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white&labelColor=20232A&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white&style=for-the-badge)
+
+---
+
+![COME AVVIARE](https://img.shields.io/badge/COME_AVVIARE_IL_PROGETTO-0282FA?style=for-the-badge)
+
 - Clona la repo
-- npm install
-- npm run dev
+- `npm install`
+- `npm run dev`
 
-# Versione online
-[Versione online - WIP: https://react-dc-comic.netlify.app/](https://react-dc-comic.netlify.app/)
+---
 
-# Obbiettivo
+![VERSIONE ONLINE](https://img.shields.io/badge/VERSIONE_ONLINE-00C7B7?logo=netlify&logoColor=white&style=for-the-badge)
+
+[https://react-dc-comic.netlify.app/](https://react-dc-comic.netlify.app/)
+
+---
+
+![OBIETTIVO](https://img.shields.io/badge/OBIETTIVO-0282FA?style=for-the-badge)
+
 ![dc-comics-empty-layout.png](<https://i.ibb.co/RpBNkskJ/dc-comics-empty-layout.png>)
