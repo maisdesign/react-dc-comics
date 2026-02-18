@@ -49,8 +49,10 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 **Font:** Open Sans
 
 **Background images:**
-- footer-bg.jpg
-- dc-logo-bg.png
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/8pb2JTN/dc-logo-bg.png" alt="dc logo bg" border="0"></a>
+<a href="https://ibb.co/Tq04ykmc"><img src="https://i.ibb.co/sJ1K72yj/footer-bg.jpg" alt="footer-bg" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/FLSLCD4N/dc-logo.png" alt="dc logo" border="0"></a>
 
 **File css:**
 - utilities (variabili colori, variabili background images, font size) => utilities.css
