@@ -10,20 +10,20 @@ Il font utilizzato è Open Sans
 
 ## Bonus: 
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
-
+(✅ Fatto)
 
 ## Questa è la mia idea di scaffolding:
 
-1.  Header
-    1.1 Nav
-        1.1.1   Logo
-2.  Main/Content
-3.  Footer
-    3.1 banda blu [CTA Zone]
-    3.2 Footer Links
-    3.3 Bottom Footer
-        3.3.1   Signup button
-        3.3.2   Social links
+1. Header
+   - Nav
+     - Logo
+2. Main/Content
+3. Footer
+   - Banda blu (CTA Zone)
+   - Footer Links
+   - Bottom Footer
+     - Signup button
+     - Social links
 
 ## Design tokens
 ### Colori:
@@ -38,7 +38,7 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - footer-bg.jpg
 - dc-logo-bg.png
 ### File css
-- utilities (reset, variabili colori, variabili background images, font size) => utilities.css
+- utilities (variabili colori, variabili background images, font size) => utilities.css
 - css base (body e critical css) => critical.css
 - css specifici (per i vari component) => $component.css
 
