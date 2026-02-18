@@ -31,7 +31,7 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - Main background: rgb(28, 28, 28)
 - Bottom footer background: rgb(48, 48, 48)
 - Nav text: rgb(82, 82, 82)
-- Bottom footer links: rgb(140, 135, 104)
+- Bottom footer links: rgb(129, 129, 130)
 ### Font:
 - Open Sans
 ### Background images (SocialLinks):
@@ -41,6 +41,16 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - utilities (reset, variabili colori, variabili background images, font size) => utilities.css
 - css base (body e critical css) => critical.css
 - css specifici (per i vari component) => $component.css
+
+## Tecnologie usate:
+- Bootstrap
+- React
+- Vite
+
+## Come avviare il progetto:
+- Clona la repo
+- npm install
+- npm run dev
 
 # Versione online
 [Versione online - WIP: https://react-dc-comic.netlify.app/](https://react-dc-comic.netlify.app/)

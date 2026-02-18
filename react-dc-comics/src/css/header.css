@@ -6,9 +6,11 @@ header {
     background-color: var(--header-bg);
 }
 
-a.top-menu-nav-link {
+nav a.top-menu-nav-link {
     color: var(--nav-link-not-active);
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
 }
 
 li.nav-item.is-active a.nav-link.top-menu-nav-link {

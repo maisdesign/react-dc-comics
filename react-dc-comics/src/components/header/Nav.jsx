@@ -3,7 +3,7 @@ import navLinks from '../../data/navLinks.js'
 
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary py-0">
+        <nav className="navbar navbar-expand-lg py-0">
             <div className="container align-items-stretch">
                 <Logo />
                 <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#topMenu">
