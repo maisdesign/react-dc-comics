@@ -41,6 +41,13 @@ Immaginare e creare la struttura dati per i link nel footer e realizzarli tramit
 
 Implementato il pulsante **Load More** con `useState` (non richiesto): al click scorre una finestra di 12 fumetti che si sposta di 6 posizioni, con reset automatico al termine dell'array.
 
+![APPROFONDIMENTO AUTONOMO ✅ COMPLETATO](https://img.shields.io/badge/APPROFONDIMENTO_AUTONOMO_✅_COMPLETATO-28a745?style=for-the-badge)
+
+Esercizio svolto in autonomia per approfondire `useState` e il pattern **lifting state up**:
+- La nav è collegata allo stato globale in `App`: al click su una categoria aggiorna l'array visualizzato in `Main` e resetta la paginazione
+- `Main` è ora un componente generico che non conosce la sorgente dei dati — riceve tutto via props
+- Lo stato di paginazione (`comicSlice`, `comicStart`) è stato sollevato da `Main` ad `App` per poter essere resettato dalla nav al cambio di categoria
+
 ---
 
 ![NUOVO OBIETTIVO](https://img.shields.io/badge/NUOVO_OBIETTIVO-0282FA?style=for-the-badge)

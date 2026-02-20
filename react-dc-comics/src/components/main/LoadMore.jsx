@@ -1,12 +1,12 @@
 
-function LoadMore({ setComicSlice, comicSlice, setComicStart, comicStart, comics }) {
+function LoadMore({ setSliceEnd, sliceEnd, setSliceStart, sliceStart, activeData }) {
 
     function resetLoadMore() {
-        if (comicSlice >= comics.length) {
-            setComicStart(0);
-            setComicSlice(12);
+        if (sliceEnd >= activeData.length) {
+            setSliceStart(0);
+            setSliceEnd(12);
         } else {
-            setComicSlice(comicSlice + 6); setComicStart(comicStart + 6);
+            setSliceEnd(sliceEnd + 6); setSliceStart(sliceStart + 6);
         }
     }
     return (

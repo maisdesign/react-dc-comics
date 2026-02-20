@@ -1,10 +1,10 @@
 import Nav from './Nav.jsx'
 
-function Header() {
+function Header({ activeData, setActiveData, setSliceEnd, setSliceStart }) {
     return (
         <>
             <header className="header">
-                <Nav />
+                <Nav activeData={activeData} setActiveData={setActiveData} setSliceEnd={setSliceEnd} setSliceStart={setSliceStart} />
             </header>
         </>
     )
