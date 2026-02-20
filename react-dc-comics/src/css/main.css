@@ -6,5 +6,91 @@ main {
     color: rgb(255, 255, 255);
     font-family: var(--site-font-family);
     font-weight: 600;
-    padding: 10rem 2rem;
+}
+
+main.container {
+    position: relative;
+}
+
+.jumbotron-wrapper {
+    position: relative;
+}
+
+main::before {
+    content: "CURRENT SERIES";
+    position: absolute;
+    color: white;
+    background-color: var(--dc-blue-color);
+    top: -1.5rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.jumbotron {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.jumbotron-link {
+    display: block;
+}
+
+.jumbotron-img {
+    display: block;
+    width: 100%;
+}
+
+.showcase-list {
+    position: relative;
+}
+
+main::before {
+    content: "CURRENT SERIES";
+    position: absolute;
+    color: white;
+    background-color: var(--dc-blue-color);
+    top: -1.5rem;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.singlecomic-img {
+    height: 200px;
+    overflow: hidden;
+}
+
+.singlecomic-img a {
+    display: block;
+    height: 100%;
+}
+
+.singlecomic-img img {
+    width: 100%;
+}
+
+.singlecomic-series {
+    text-transform: uppercase;
+}
+
+.loadmore-container {
+    width: 20%;
+}
+
+.loadmore-button {
+    background-color: var(--dc-blue-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.2rem 3rem;
+    border: none;
+    text-decoration: none;
 }
