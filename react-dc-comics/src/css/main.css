@@ -28,6 +28,7 @@ main::before {
     justify-content: center;
     text-align: center;
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .jumbotron {
@@ -64,10 +65,6 @@ main::before {
 
 .singlecomic-series {
     text-transform: uppercase;
-}
-
-.loadmore-container {
-    width: 20%;
 }
 
 .loadmore-button {

@@ -5,7 +5,6 @@
 .footerlinks {
     background-image: var(--footer-link-bg);
     background-size: cover;
-    /* background-position: center; */
     position: relative;
     overflow: hidden;
 }
@@ -16,9 +15,16 @@
     text-transform: uppercase;
 }
 
+ul.footer-links-ul.px-0 {
+    list-style: none;
+}
+
 .footer-link-item a {
     color: var(--bottom-footer-link);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+}
+
+li.footer-link-item.SITES {
     text-transform: uppercase;
 }
 

@@ -16,8 +16,8 @@ function Main() {
                         <ShowcaseCard key={id} id={id} title={title} series={series} thumb={thumb} />
                     )
                     )}
-                    <LoadMore />
                 </ul>
+                <LoadMore />
             </main>
         </>
     )
