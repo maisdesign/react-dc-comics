@@ -1,5 +1,5 @@
 function FLinks({ sectionName, arrayName }) {
-    let classy = sectionName.replaceAll(' ', '-');
+    let sectionClass = sectionName.replaceAll(' ', '-');
     return (
         <>
 
@@ -7,7 +7,7 @@ function FLinks({ sectionName, arrayName }) {
             <ul className="footer-links-ul px-0">
 
                 {arrayName.map(({ id, label, link }) => (
-                    <li key={id} className={`footer-link-item ${classy}`}>
+                    <li key={id} className={`footer-link-item ${sectionClass}`}>
                         <a href={link} className="text-decoration-none">{label}</a>
                     </li>
                 )
