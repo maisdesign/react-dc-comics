@@ -33,9 +33,13 @@ Lavoriamo sul nostro sito dei fumetti per dinamicizzare sia la navbar che i fume
 
 Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
 
-![BONUS](https://img.shields.io/badge/BONUS-555555?style=for-the-badge)
+![BONUS ✅ COMPLETATO](https://img.shields.io/badge/BONUS_✅_COMPLETATO-28a745?style=for-the-badge)
 
 Immaginare e creare la struttura dati per i link nel footer e realizzarli tramite l'iterazione!
+
+![EXTRA ✅ COMPLETATO](https://img.shields.io/badge/EXTRA_✅_COMPLETATO-28a745?style=for-the-badge)
+
+Implementato il pulsante **Load More** con `useState` (non richiesto): al click scorre una finestra di 12 fumetti che si sposta di 6 posizioni, con reset automatico al termine dell'array.
 
 ---
 
@@ -52,13 +56,18 @@ Immaginare e creare la struttura dati per i link nel footer e realizzarli tramit
 1. Header
    - Nav
      - Logo
-2. Main/Content
+2. Main
+   - Jumbotron
+   - ShowcaseCard _(iterato da array)_
+   - LoadMore
 3. Footer
-   - Banda blu (CTA Zone)
-   - Footer Links
-   - Bottom Footer
-     - Signup button
-     - Social links
+   - CtaZone
+     - CtaCard _(iterato da array)_
+   - FooterLinks
+     - FLinks _(componente riutilizzabile, iterato da array)_
+   - BottomFooter
+     - SignupButton
+     - SocialLinks
 
 ---
 
