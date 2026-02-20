@@ -48,20 +48,6 @@ main::before {
     position: relative;
 }
 
-main::before {
-    content: "CURRENT SERIES";
-    position: absolute;
-    color: white;
-    background-color: var(--dc-blue-color);
-    top: -1.5rem;
-    padding: 0.5rem 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: 600;
-}
-
 .singlecomic-img {
     height: 200px;
     overflow: hidden;
