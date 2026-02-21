@@ -11,7 +11,7 @@ function LoadMore({ setSliceEnd, sliceEnd, setSliceStart, sliceStart, activeData
     }
     return (
         <>
-            <div className="loadmore-container mx-auto col-2 my-3">
+            <div className="loadmore-container mx-auto col-6 col-md-2 my-3">
 
                 <button className="loadmore-button" onClick={() => { resetLoadMore(); }}>Load More</button>
             </div>
