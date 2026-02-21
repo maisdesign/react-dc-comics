@@ -1,13 +1,13 @@
-import characters from '../assets/jumbotron/characters.svg'
+import characters from '../assets/jumbotron/characters.avif'
 import comics from '../assets/jumbotron/jumbotron.jpg'
-import movies from '../assets/jumbotron/movies.svg'
-import tv from '../assets/jumbotron/tv.svg'
-import games from '../assets/jumbotron/games.svg'
-import collectibles from '../assets/jumbotron/collectibles.svg'
-import videos from '../assets/jumbotron/videos.svg'
-import fans from '../assets/jumbotron/fans.svg'
-import news from '../assets/jumbotron/news.svg'
-import shop from '../assets/jumbotron/shop.svg'
+import movies from '../assets/jumbotron/movies.avif'
+import tv from '../assets/jumbotron/tv.jpg'
+import games from '../assets/jumbotron/games.avif'
+import collectibles from '../assets/jumbotron/collectibles.webp'
+import videos from '../assets/jumbotron/videos.avif'
+import fans from '../assets/jumbotron/fans.avif'
+import news from '../assets/jumbotron/news.avif'
+import shop from '../assets/jumbotron/shop.webp'
 
 const jumbotronImg = [
     { id: 'characters', data: characters },
