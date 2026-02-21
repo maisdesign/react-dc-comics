@@ -3,10 +3,11 @@ import ShowcaseCard from './ShowcaseCard.jsx'
 import LoadMore from './LoadMore.jsx'
 
 function Main({ activeData, sliceEnd, setSliceEnd, setSliceStart, sliceStart }) {
+
     return (
         <>
             <div className="jumbotron-wrapper">
-                <Jumbotron />
+                <Jumbotron activeData={activeData} />
             </div>
             <main className="container">
                 <ul className="showcase-list d-flex flex-wrap list-unstyled row mx-auto container py-3 px-0">

@@ -46,7 +46,14 @@ Implementato il pulsante **Load More** con `useState` (non richiesto): al click 
 Esercizio svolto in autonomia per approfondire `useState` e il pattern **lifting state up**:
 - La nav è collegata allo stato globale in `App`: al click su una categoria aggiorna l'array visualizzato in `Main` e resetta la paginazione
 - `Main` è ora un componente generico che non conosce la sorgente dei dati — riceve tutto via props
-- Lo stato di paginazione (`comicSlice`, `comicStart`) è stato sollevato da `Main` ad `App` per poter essere resettato dalla nav al cambio di categoria
+- Lo stato di paginazione (`sliceEnd`, `sliceStart`) è stato sollevato da `Main` ad `App` per poter essere resettato dalla nav al cambio di categoria
+
+![APPROFONDIMENTO AUTONOMO ✅ COMPLETATO](https://img.shields.io/badge/APPROFONDIMENTO_AUTONOMO_✅_COMPLETATO-28a745?style=for-the-badge)
+
+Implementato il **Jumbotron dinamico**: al cambio di categoria l'immagine di sfondo cambia automaticamente.
+- Creato `src/data/jumbotronImg.js` con un array di immagini SVG placeholder, una per categoria
+- Creati 10 file SVG placeholder in `src/assets/jumbotron/`
+- `Jumbotron` riceve `activeData` da `Main` e usa il confronto per riferimento (`link.data === activeData`) su `navLinks` per ricavare il `label` della categoria attiva, che viene usato per trovare l'immagine corrispondente in `jumbotronImg`
 
 ---
 

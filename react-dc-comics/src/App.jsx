@@ -8,6 +8,7 @@ function App() {
   const [activeData, setActiveData] = useState(navLinks[1].data)
   const [sliceEnd, setSliceEnd] = useState(12)
   const [sliceStart, setSliceStart] = useState(0)
+
   return (
     <>
       <Header activeData={activeData} setActiveData={setActiveData} setSliceEnd={setSliceEnd} setSliceStart={setSliceStart} />
