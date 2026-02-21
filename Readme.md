@@ -59,7 +59,15 @@ Implementato il **Jumbotron dinamico**: al cambio di categoria l'immagine di sfo
 
 ![NUOVO OBIETTIVO](https://img.shields.io/badge/NUOVO_OBIETTIVO-0282FA?style=for-the-badge)
 
-![dc-comics-layout-2.png](<https://i.ibb.co/9kbfyW0M/screenshot.png>)
+<a href="https://ibb.co/nqnZthdR"><img src="https://i.ibb.co/7xR8L7Mb/screenshot.png" alt="screenshot" border="0"></a>
+
+### Versione finale
+
+**Desktop:**
+<a href="https://ibb.co/hF0ZZHQc"><img src="https://i.ibb.co/Dfd88kcY/finale-desktop.jpg" alt="finale-desktop" border="0"></a>
+
+**Mobile:**
+<a href="https://ibb.co/ymJ3rDHR"><img src="https://i.ibb.co/Ngz4MXc3/finale-mobile.jpg" alt="finale mobile" border="0"></a>
 
 ---
 
